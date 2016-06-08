@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: black;
 }
 
 hr.star-primary {
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: black;
 }
 
 header .container {
@@ -181,7 +181,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: black;
 }
 
 section.success a,
@@ -217,9 +217,10 @@ section.success a.active {
 
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
-    width: 100%;
+    width: 84%;
     height: 100%;
     opacity: 0;
+    border-radius: 5%;
     background: rgba(24,188,156,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
@@ -456,4 +457,23 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.profile-pic {
+  height:256px;
+  width:256px;
+  border-radius: 50%;
+}
+
+.img-portfolio {
+  border-radius:5%;
+}
+
+.p-centered-text {
+  text-align: justify;
+}
+
+.img-moza {
+  height: 50%;
+  width: 50%;
 }
